@@ -4,9 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dervla Photography</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 20px;
+      background-color: #000;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 10px;
+    }
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #000;
+      color: #888;
+    }
+  </style>
 </head>
-<body style="text-align:center; font-family:sans-serif;">
-  <h1>Dervla Photography</h1>
-  <p>Capturing moments, emotions, and stories through my lens.</p>
+<body>
+  <header>
+    <h1>Dervla Photography</h1>
+    <p>Capturing light, moments, and stories</p>
+  </header>
+
+  <section class="gallery">
+    <img src="[placehold.co](https://placehold.co/600x400?text=Photo+1)" alt="Photo 1">
+    <img src="[placehold.co](https://placehold.co/600x400?text=Photo+2)" alt="Photo 2">
+    <img src="[placehold.co](https://placehold.co/600x400?text=Photo+3)" alt="Photo 3">
+    <img src="[placehold.co](https://placehold.co/600x400?text=Photo+4)" alt="Photo 4">
+    <img src="[placehold.co](https://placehold.co/600x400?text=Photo+5)" alt="Photo 5">
+  </section>
+
+  <footer>
+    © 2026 Dervla Photography
+  </footer>
 </body>
 </html>
